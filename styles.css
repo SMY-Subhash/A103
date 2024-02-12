@@ -50,6 +50,22 @@ footer {
   max-width: 100%;
   margin: 0 1rem;
 }
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.image-item {
+  flex: 0 0 calc(33.33% - 10px); /* Adjust as needed */
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+}
+
 
 /* Video Styles */
 video {
