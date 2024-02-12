@@ -3,10 +3,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
 }
 
 header {
-  background-color: #333;
+  background-color: #333; /* Dark gray header */
   color: #fff;
   padding: 1rem;
   text-align: center;
@@ -33,7 +35,7 @@ section {
 }
 
 footer {
-  background-color: #333;
+  background-color: #333; /* Dark gray footer */
   color: #fff;
   text-align: center;
   padding: 1rem;
@@ -50,6 +52,14 @@ footer {
   max-width: 100%;
   margin: 0 1rem;
 }
+
+/* Video Styles */
+video {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+}
+
 
 .image-grid {
   display: grid;
@@ -69,11 +79,3 @@ footer {
   max-height: 100%;
 }
 
-
-
-/* Video Styles */
-video {
-  display: block;
-  margin: 1rem auto;
-  max-width: 100%;
-}
