@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: #333; /* Dark gray header */
+  background-color: #2E473B; /* Dark gray header 333 */
   color: #fff;
   padding: 1rem;
   text-align: center;
@@ -65,7 +65,7 @@ video {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-rows: minmax(100px, auto);
-  gap: 10px; /* Adjust as needed */
+  gap: 1px; /* Adjust as needed */
 }
 
 .image-item {
