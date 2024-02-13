@@ -83,7 +83,7 @@ video {
 .video-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust as needed */
-  grid-gap: 20px; /* Adjust as needed */
+  grid-gap: 4px; /* Adjust as needed */
 }
 
 .video-item {
