@@ -96,3 +96,8 @@ video {
   height: auto;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust as needed */
+  grid-gap: 20px; /* Adjust as needed */
+}
